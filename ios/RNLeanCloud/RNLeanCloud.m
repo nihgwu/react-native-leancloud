@@ -20,9 +20,9 @@ RCT_EXPORT_MODULE()
 - (NSDictionary *)constantsToExport
 {
     return @{
-       @"appId": [[NSBundle mainBundle] objectForInfoDictionaryKey:@"LeanCloudAppId"],
-       @"appKey": [[NSBundle mainBundle] objectForInfoDictionaryKey:@"LeanCloudAppKey"],
-		};
+        @"appId": [[NSBundle mainBundle] objectForInfoDictionaryKey:@"LeanCloudAppId"]?: [NSNull null],
+        @"appKey": [[NSBundle mainBundle] objectForInfoDictionaryKey:@"LeanCloudAppKey"]?: [NSNull null],
+    };
 }
 
 @end

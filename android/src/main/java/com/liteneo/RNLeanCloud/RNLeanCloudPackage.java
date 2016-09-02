@@ -15,6 +15,9 @@ public class RNLeanCloudPackage implements ReactPackage {
   private String mAppId;
   private String mAppKey;
 
+  public RNLeanCloudPackage() {
+  }
+
   public RNLeanCloudPackage(String appId, String appKey) {
     this.mAppId = appId;
     this.mAppKey = appKey;
